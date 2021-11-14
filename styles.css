@@ -1,0 +1,196 @@
+html {
+  background: linear-gradient(to right, #fad2d6 68%, #fff 37%);
+}
+
+nav {
+  margin: 12px 2%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.nav-text {
+  font-family: 'Roboto', sans-serif;
+  color: 000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.spacing-2 {
+  letter-spacing: 0.5px;
+}
+
+.vertical-align {
+  margin: auto;
+  vertical-align: middle;
+}
+
+.mx-6px {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.signup-custom {
+  margin: auto 0;
+  margin-left: auto;
+  vertical-align: middle;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+
+}
+
+.a-black{
+  color: 000;
+}
+
+.grid-info {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20%;
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+}
+
+.my-25 {
+  margin-top: 10%;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.m0 {
+  margin: 0 auto;
+}
+
+.mxl-5rem {
+  margin-left: 5rem;
+}
+
+.mxr-7rem {
+  margin-right: 30%;
+}
+
+.desc {
+  font-family: 'Roboto', sans-serif;
+  color: #2e282a;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.myb-0 {
+  margin-bottom: 0;
+}
+
+.myt-3rem {
+  margin-top: 3rem;
+}
+
+.mxl-2rem {
+  margin-left: 2rem;
+}
+
+.myt-2rem {
+  margin-top: 2rem;
+}
+
+input[type=email], input[type=password] {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+
+}
+
+.myt-1rem {
+  margin-top: 1rem;
+}
+
+.a-pwd {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #2395FF;
+}
+
+.warning-1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.a-pwd:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  transform: scale(1.4);
+}
+
+.remember-me {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.sign-in-btn {
+  width: 98%;
+  margin-top: 18px;
+  position: relative;
+  padding: 5px 0;
+  background-color: #4D92FA;
+  color: #ffffff;
+  border-color: #4D92FA;
+  box-shadow: 0;
+  cursor:pointer;
+}
+
+.fa-check {
+  position: absolute;
+  color: #4c9a2a;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.fa-exclamation {
+  position: absolute;
+  color: red;
+  margin-top: 20px;
+  margin-left: 10px;
+}

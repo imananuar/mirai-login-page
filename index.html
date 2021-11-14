@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login | Mirai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/522fc3c335.js" crossorigin="anonymous"></script>
+
+    <nav class="navbar flex-container">
+      <img src="logo.svg" alt="" class="logo-img">
+      <p class="nav-text vertical-align mx-6px spacing-2">Mirai</p>
+      <a href="" class="a-black nav-text signup-custom">Sign Up</a>
+    </nav>
+  </head>
+
+  <body>
+    <div class="my-25 text">
+      <div class="mxl-5rem">
+        <h1 class='m0 '>We Hold The Future.</h1>
+        <h1 class='m0'>We Create The Future.</h1>
+        <p class="desc myb-0 myt-3rem mxr-7rem">Mirai is a company that invest in the future of technology and finance.
+          We rethink on how the finance world should work and how the finance world will make all people live easier.
+          And not only that - everyday we progressively make a step forward to make people live happier.
+        </p>
+      </div>
+      <div class="mxl-2rem">
+        <h2 class="m0">Sign In</h2>
+        <form id="sign-in-form" class="myt-2rem" action="index.html" method="post">
+          <div class="email-input" id="email-input">
+            <input type="email" id="email" name="email" onchange='updateEmailInput(this.value)' placeholder="Email">
+          </div>
+          <div class="password-input" id="password-input">
+            <input type="password" id="password" name="pwd" onchange='updatePwdInput(this.value)' placeholder="Password">
+          </div>
+        </form>
+        <a class="a-pwd">Forgot Your Password?</a>
+        <form class="myt-1rem m0" action="index.html" method="post">
+          <input type="checkbox" name="remember-me" value="">
+          <label for="remember-me" class="remember-me">Remember Me</label>
+        </form>
+        <button type="button" name="button" class="sign-in-btn" id="sign-in-btn">SIGN IN</button>
+      </div>
+    </div>
+    <script type="text/javascript" src = "script.js"></script>
+  </body>
+</html>
